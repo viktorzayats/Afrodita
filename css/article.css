@@ -1,0 +1,55 @@
+.content__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content__item {
+    margin-bottom: 42px;
+}
+
+
+.services__image_sport {
+    background-image: url('../images/sports.png');
+}
+
+.services__image_apple {
+    background-image: url('../images/apple.png');
+}
+
+.services__image_yoga {
+    background-image: url('../images/yoga.png');
+}
+
+.services__image_tpx {
+    background-image: url('../images/trx.png');
+}
+
+.services__image_women {
+    background-image: url('../images/women.png');
+}
+
+.services__image_swimming {
+    background-image: url('../images/swimming.png');
+}
+.services__desc {
+    max-width: 261px;
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.services__subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.services__text{
+    font-family: 'open_sanslight';
+}
+
+.content__item_margin-30 {
+    margin-bottom: 52px;
+}

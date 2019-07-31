@@ -1,0 +1,16 @@
+.copyright {
+    width: 239px;
+    color: #ffffff;
+    font-family: 'open_sanslight';
+    font-size: 14px;
+    line-height: 18px;
+    
+}
+.copyright__link {
+    font-weight: 700;
+    text-decoration: underline;
+    color: inherit;
+}
+.copyright__name {
+    font-weight: 700;
+}

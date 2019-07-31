@@ -1,0 +1,23 @@
+.breadcrumbs__list {
+    display: flex;
+}
+
+.breadcrumbs__item:first-child:after {
+    content: "/";
+}
+
+.breadcrumbs__link,
+.breadcrumbs__item:first-child:after {
+    opacity: 0.8;
+    color: #f89513;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 48px;
+}
+
+.breadcrumbs__link_active,
+.breadcrumbs__item:first-child:after {
+    color: #221f1f;
+    pointer-events: none;
+}

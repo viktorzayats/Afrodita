@@ -1,0 +1,125 @@
+.form {
+    background-color: #f5f5f5;
+    padding: 50px 70px;
+}
+
+
+.form_title {
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form__label {
+    flex: 1;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.form__label_right {
+    margin-left: 23px;
+}
+.form__input {
+    width: 100%;
+    border: none;
+    line-height: 54px;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.form__input:focus, .form__field:focus {
+    border: 1px solid #f89513;
+}
+.form__text {
+    display: flex;
+}
+.form__field {
+    flex: 1;
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    resize: none;
+    height: 90px;
+    padding: 10px;
+}
+
+.form__input, .form__text, .radio__text {
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form__text, .radio__text {
+    margin-bottom: 10px;
+}
+
+.form__row_btn {
+    justify-content: space-between;
+}
+.radio__controls {
+    display: flex;
+}
+.radio__label {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    position: relative;
+}
+
+.form__radio {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+}
+
+.form__radio-fake {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__radio-fake::before {
+    content: '';
+    display: flex;
+    height: 0;
+    width: 0;
+    border-radius: 50%;
+    background-color: #f89513;
+    transition: .2s;
+}
+
+.form__radio:checked+.form__radio-fake {
+    border-color: #f89513;
+}
+
+.form__radio:checked+.form__radio-fake::before {
+    height: 8px;
+    width: 8px;
+}
+
+.form__radio:checked+.form__radio-fake+.form__label-name {
+    color: #f89513;
+}
+.form__btn {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 54px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    background-color: #1c1f1d;
+    border-radius: 4px;
+    padding: 0 21px;
+}
+.form__btn:hover {
+    background-color: #f89513;
+}

@@ -1,0 +1,48 @@
+.main__container {
+    width: 870px;
+    margin: 0 auto;
+    padding-bottom: 61px;
+}
+
+.aside {
+    background-color: #131415;
+    min-height: 171px;
+}
+
+.aside_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/group.png');
+    min-height: 171px;
+}
+
+.aside__text {
+    max-width: 636px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'open_sanslight';
+    text-align: center;
+    padding: 30px 26px;
+}
+.aside__text-bold {
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #f89513;
+}
+
+.aside_margin-bottom {
+    margin-bottom: 30px;
+}
+
+.comment {
+    padding: 61px 0; 
+}
+
+.comment_padding {
+    padding-bottom: 25px;
+}
+.comment__container {
+    max-width: 700px;
+}

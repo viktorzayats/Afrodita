@@ -1,0 +1,12 @@
+.pagination__item_active {
+    background-color: #131415;
+    border-radius: 4px;
+}
+
+.pagination__item_active .pagination__link {
+    color: #f89513;
+}
+
+.pagination__link:hover {
+    color: #f89513;
+}
